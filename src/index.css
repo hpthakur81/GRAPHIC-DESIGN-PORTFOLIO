@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Dancing Script", cursive;
+
+  --color-bg-primary: #0A0A0A;
+  --color-accent-orange: #FF6A00;
+  --color-accent-gold: #FFB347;
+  --color-accent-red: #FF3C3C;
+  --color-text-sub: #BFBFBF;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-white font-sans selection:bg-accent-orange selection:text-white;
+  }
+}
+
+.glow-orange {
+  text-shadow: 0 0 10px rgba(255, 106, 0, 0.5), 0 0 20px rgba(255, 106, 0, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(255, 60, 60, 0.4);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-accent-orange to-accent-gold;
+}
+
+.gradient-bg {
+  @apply bg-linear-to-r from-accent-orange to-accent-gold;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}
