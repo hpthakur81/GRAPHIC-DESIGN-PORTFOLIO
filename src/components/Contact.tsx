@@ -116,7 +116,7 @@ export default function Contact() {
                   type="text" 
                   name="name"
                   required
-                  placeholder="Enter Your Name Here."
+                  placeholder="Enter Your Name Here"
                   className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white focus:outline-none focus:border-accent-orange transition-colors"
                 />
               </div>
@@ -126,7 +126,7 @@ export default function Contact() {
                   type="email" 
                   name="email"
                   required
-                  placeholder="Enter Your Mail Address Here."
+                  placeholder="Enter Your Email Here"
                   className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white focus:outline-none focus:border-accent-orange transition-colors"
                 />
               </div>
@@ -136,7 +136,7 @@ export default function Contact() {
                   name="message"
                   required
                   rows={4}
-                  placeholder="Enter Your Message Here."
+                  placeholder="Tell me about your project..."
                   className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white focus:outline-none focus:border-accent-orange transition-colors resize-none"
                 ></textarea>
               </div>

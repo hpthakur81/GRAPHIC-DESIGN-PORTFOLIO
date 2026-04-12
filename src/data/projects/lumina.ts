@@ -2,10 +2,10 @@ import { Project } from '../../types';
 
 export const luminaProject: Project = {
   id: "lumina",
-  title: "Brand Identity",
+  title: "Branding Designs",
   category: "Branding",
   image: "https://i.ibb.co/7Np8LBP1/1-copy-3.png",
-  description: "A futuristic brand identity for a tech startup.",
+  description: " ",
   designs: [
     "https://i.ibb.co/7Np8LBP1/1-copy-3.png",
     "https://i.ibb.co/kWq6DXc/5.png",

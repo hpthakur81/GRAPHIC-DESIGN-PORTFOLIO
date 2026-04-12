@@ -152,9 +152,6 @@ export default function Projects() {
                   <h3 className="text-2xl font-display font-bold mb-2 group-hover:text-accent-gold transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-text-sub text-sm">
-                    {project.description}
-                  </p>
                 </div>
 
                 {/* Hover Overlay */}

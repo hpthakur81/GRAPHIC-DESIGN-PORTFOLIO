@@ -2,10 +2,10 @@ import { Project } from '../../types';
 
 export const creativeProject: Project = {
   id: "creative",
-  title: "Creative Vision Studio",
+  title: "Creative Designs",
   category: "CREATIVE",
   image: "https://i.ibb.co/S4LBT9w0/GUESS-THE-SPEAKER.png",
-  description: "An experimental digital experience pushing the boundaries of art and code.",
+  description: " ",
   designs: [
     "https://i.ibb.co/S4LBT9w0/GUESS-THE-SPEAKER.png",
     "https://i.ibb.co/hxxTpsKc/QALA-CREATIVE.png",

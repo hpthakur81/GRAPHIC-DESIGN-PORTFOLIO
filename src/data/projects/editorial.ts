@@ -2,10 +2,10 @@ import { Project } from '../../types';
 
 export const editorialProject: Project = {
   id: "editorial",
-  title: "Print Media Layouts",
+  title: "Print Media Designs",
   category: "PRINT MEDIA",
   image: "https://i.ibb.co/tTjdzPvK/1-copy.png",
-  description: "High-quality print layout for a fashion and lifestyle magazine.",
+  description: " ",
   designs: [
     "https://i.ibb.co/tTjdzPvK/1-copy.png",
     "https://i.ibb.co/1JJW47B1/1-copy-4.png",
